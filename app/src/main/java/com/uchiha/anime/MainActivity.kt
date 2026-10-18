@@ -154,8 +154,7 @@ private fun HomeScreen(search: String, onSearch: (String) -> Unit, favorites: Se
                 .clickable { onOpen(animeList[0]) }.padding(20.dp)) {
                 Column(Modifier.align(Alignment.CenterStart).fillMaxWidth(.72f), verticalArrangement = Arrangement.spacedBy(9.dp)) {
                     Text("FEATURED • #01", color = Color(0xFFFFA09A), fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.5.sp)
-                    Text("THE SHINOBI
-LEGACY", color = White, fontSize = 25.sp, lineHeight = 28.sp, fontWeight = FontWeight.Black)
+                    Text("THE SHINOBI\nLEGACY", color = White, fontSize = 25.sp, lineHeight = 28.sp, fontWeight = FontWeight.Black)
                     Text("Enter a world of legends.", color = Color(0xFFE5C9CC), fontSize = 12.sp)
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Icon(Icons.Filled.PlayArrow, null, tint = White, modifier = Modifier.size(17.dp))
